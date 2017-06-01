@@ -323,7 +323,7 @@ class SearchInput extends Component {
                         </Animated.View>
                         :
                         <Animated.Image
-                            source={require('./img/search.png')}
+                            source={require('../img/search.png')}
                             style={[
                                 styles.iconSearch,
                                 styles.iconSearchDefault,
@@ -347,7 +347,7 @@ class SearchInput extends Component {
                         </Animated.View>
                         :
                         <Animated.Image
-                            source={require('./img/delete.png')}
+                            source={require('../img/delete.png')}
                             style={[
                                 styles.iconDelete,
                                 styles.iconDeleteDefault,
