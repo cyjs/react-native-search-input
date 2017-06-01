@@ -1,17 +1,20 @@
-## React Native Search Box
+## React Native Search Input
 - A simple search box with animation, inspired from ios search bar.
 - No library dependencies, lightweight, fast, flexible, customizable.
 - Support both iOS/Android devices
 - Support vertical, horizontal layout
 - Shadow invisible by default
 
+## Credit
+Crabstudio. https://github.com/crabstudio
+
 ## Install
 ```
-npm install --save react-native-search-box
+npm install --save react-native-search-input
 
 or
 
-yarn add react-native-search-box
+yarn add react-native-search-input
 ```
 
 ## Demo
@@ -225,8 +228,6 @@ class MyScene extends Component {
 ## LICENSE
 
 The MIT License
-
-Copyright (c) 2017 Crabstudio. https://github.com/crabstudio
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
