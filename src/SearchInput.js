@@ -65,11 +65,6 @@ class SearchInput extends Component {
         const contentWidth = event.nativeEvent.layout.width;
         this.contentWidth = contentWidth;
         this.middleWidth = contentWidth / 2;
-        if (this.state.expanded) {
-            this.expandAnimation();
-        } else {
-            this.collapseAnimation();
-        }
     }
 
     /**
