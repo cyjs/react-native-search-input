@@ -271,7 +271,6 @@ class SearchInput extends Component {
                         styles.container,
                         this.props.backgroundColor && { backgroundColor: this.props.backgroundColor }
                     ]}
-                onLayout={this.onLayout}
             >
                 <AnimatedTextInput
                     ref="input_keyword"
