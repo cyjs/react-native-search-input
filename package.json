@@ -19,5 +19,8 @@
         "android",
         "cyveros",
         "cyjs"
-    ]
+    ],
+    "dependencies": {
+        "prop-types": "^15.6.0"
+    }
 }
