@@ -8,7 +8,8 @@ import {
     Dimensions,
     Keyboard,
     Image,
-    View
+    View,
+    ViewPropTypes
 } from 'react-native';
 
 const AnimatedTextInput = Animated.createAnimatedComponent(TextInput);
@@ -482,14 +483,14 @@ SearchInput.propTypes = {
     inputStyle: PropTypes.oneOfType([
         PropTypes.number,
         PropTypes.object,
-        View.propTypes.style
+        ViewPropTypes.style
     ]),
     cancelButtonStyle: PropTypes.oneOfType([
         PropTypes.number,
         PropTypes.object
     ]),
     onLayout: PropTypes.func,
-    cancelButtonStyle: View.propTypes.style,
+    cancelButtonStyle: ViewPropTypes.style,
 
     /**
      * text input
